@@ -39,10 +39,11 @@
   .main-container {
     margin-top: 3rem;
   }
+
   .card {
     grid-column: 1;
-    border: 1px solid rgb(189, 189, 189);
-    width: 50rem;
+    border: 1px solid  rgb(189, 189, 189) ;
+    width: 40rem;
     height: 35rem;
     border-radius: 15px;
   }
@@ -85,10 +86,11 @@
   }
   .links-card {
     grid-column: 1;
-    border: 1px solid rgb(189, 189, 189);
-    width: 40rem;
+    border: 1px solid  rgb(189, 189, 189);
+    width: 25rem;
     height: 35rem;
     border-radius: 15px;
+
   }
   .about-section-container {
     display: grid;
@@ -96,11 +98,10 @@
     gap: 1rem;
     justify-content: center;
     padding: 5px;
-    width: 87%;
+    width: 75%;
     margin: auto;
   }
   .links-container {
-    padding: 10px;
     width: 15rem;
     margin-top: 7rem;
     margin-left: 2.5rem;
