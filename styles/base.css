@@ -1,29 +1,22 @@
-/* Global Reset */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
   }
-  
-  /* Header */
   header {
     background-color: #00274d;
     height: 6rem;
   }
-  
   .heading span {
     color: gold;
   }
-  
   header h1 {
     color: #ffffff;
     text-align: center;
     margin: auto;
     padding: 15px;
   }
-  
-  /* Navigation */
   nav ul {
     background-color: #000000;
     display: flex;
@@ -32,45 +25,27 @@
     height: 2.5rem;
     margin-top: 1rem;
   }
-  
   nav ul li {
     list-style: none;
   }
-  
   nav ul li a {
     text-decoration: none;
     font-size: 18px;
     color: #ffffff;
-    transition: color 0.3s ease;
   }
-  
   nav ul li a:hover {
     color: #ffd700;
   }
-  
-  /* Main Container */
   .main-container {
     margin-top: 3rem;
   }
-  
-  /* Card Styles */
-  .card, .links-card {
-    border: 1px solid rgb(189, 189, 189);
-    border-radius: 15px;
-  }
-  
   .card {
     grid-column: 1;
+    border: 1px solid rgb(189, 189, 189);
     width: 50rem;
     height: 35rem;
+    border-radius: 15px;
   }
-  
-  .links-card {
-    grid-column: 1;
-    width: 40rem;
-    height: 35rem;
-  }
-  
   .card-h2 {
     background-color: #00274d;
     text-align: center;
@@ -80,15 +55,41 @@
     padding: 10px;
     color: #ffffff;
   }
-  
-  /* Main Content */
   main {
-    max-width: 1450px;
-    margin: 0 auto;
-    padding: 20px;
+    max-width: 1450px; 
+    margin: 0 auto;    
+    padding: 20px;     
   }
   
-  /* About Section */
+  
+  .div1,
+  .div2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+  }
+  .mypic,
+  .nigeria-flag {
+    width: 12rem;
+    height: 12rem;
+  }
+  .abt-txt p {
+    padding: 10px;
+  }
+  hr {
+    width: 20rem;
+    margin: auto;
+  }
+  .country {
+    text-align: center;
+  }
+  .links-card {
+    grid-column: 1;
+    border: 1px solid rgb(189, 189, 189);
+    width: 40rem;
+    height: 35rem;
+    border-radius: 15px;
+  }
   .about-section-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -98,81 +99,31 @@
     width: 87%;
     margin: auto;
   }
-  
-  .div1, .div2 {
-    display: flex;
-    justify-content: space-around;
-    padding: 5px;
-  }
-  
-  .mypic, .nigeria-flag {
-    width: 12rem;
-    height: 12rem;
-  }
-  
-  .abt-txt p {
-    padding: 10px;
-  }
-  
-  hr {
-    border: 1px solid #ddd;
-    width: 20rem;
-    margin: 20px auto;
-  }
-  
-  .country {
-    text-align: center;
-  }
-  
-  /* Links Section */
   .links-container {
     padding: 10px;
     width: 15rem;
     margin-top: 7rem;
     margin-left: 2.5rem;
   }
-  
   .links-container ul li {
     margin-top: 1rem;
   }
-  
-  /* Footer */
   .footer-container {
     background-color: #00274d;
     height: 5rem;
     margin-top: 1rem;
   }
-  
   footer p {
     text-align: center;
     padding: 5px;
     font-size: 18px;
   }
-  
   .footer-p-container {
     padding: 10px;
   }
-  
   .highlight {
     color: #ffffff;
   }
-  
   .lastmodified {
     color: gold;
   }
-  
-  /* Media Queries for Responsiveness */
-  @media (max-width: 768px) {
-    .about-section-container {
-      grid-template-columns: 1fr;
-    }
-    .card, .links-card {
-      width: 100%;
-      height: auto;
-    }
-    nav ul {
-      flex-direction: column;
-      height: auto;
-    }
-  }
-  
