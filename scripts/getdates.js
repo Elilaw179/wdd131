@@ -11,7 +11,7 @@ const formattedDate = currentDate.toLocaleString("en-GB", {
   hour: "2-digit",
   minute: "2-digit",
   second: "2-digit",
-  hourCycle: "h12", 
+  hourCycle: "h24", 
 });
 
 yearElement.innerHTML = `
