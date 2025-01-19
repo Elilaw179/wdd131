@@ -18,7 +18,6 @@ yearElement.innerHTML = `
   <span class="highlight">
     ${currentDate.getFullYear()} &copy; Elisha Sunday ✅ Software Engineer ✅ Nigeria
   </span>`;
-
 lastModifiedElement.innerHTML = `
   <span class="lastmodified">
     Last Modification: ${formattedDate}
