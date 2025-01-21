@@ -60,3 +60,9 @@ figure{
 figure img{
     width: 100%;
 }
+
+
+.fa-beat, .fa-bounce, .fa-beat-fade, .fa-fade, .fa-flip, .fa-shake, .fa-spin, .fa-rotate-by {
+  animation: none !important;
+  transform: none !important;
+}
