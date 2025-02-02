@@ -1,0 +1,75 @@
+header {
+  height: 5rem;
+  border-top: 1px green;
+  padding: 11px;
+}
+header h1 {
+  text-align: center;
+  color: #fff;
+}
+.h-border {
+  background-color: green;
+  height: 1rem;
+  width: 100%;
+}
+.hero img{
+  height: 35rem;
+  width: 100%;
+  position: relative;
+}
+.hero-img-small-screen {
+  display: none ;
+}
+.first-hero-span {
+  width: 18rem;
+  left: 5%;
+  padding: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.data {
+  width: 17rem;
+  padding: 1rem;
+  background-color: #fff;
+}
+.data h2 {
+  background-color: green;
+  color: #fff;
+  padding: 5px;
+}
+.data-txt {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  text-indent: 11px;
+  padding: 7px;
+}
+
+.hero-contents {
+  height: 32rem;
+  display: flex;
+  left: 2%;
+  justify-content: space-between;
+  width: 95%;
+  position: absolute;
+  top: 10rem;
+}
+#weather{
+    height: 12rem;
+    position: relative;
+    top: 18rem;
+}
+.weather-icon{
+    display: flex;
+}
+.weather-icon img{
+  display: none;
+}
+
+.weather-emoji::after {
+  content: "⛅";
+  font-size: 1.5rem;
+}
+
+
+
+

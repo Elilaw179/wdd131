@@ -16,58 +16,45 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-#btn-menu{
+#btn-menu {
   display: none;
   color: #fff;
   background-color: inherit;
   border: none;
-  
 
   font-size: 20px;
 }
-.main-container{
+.main-container {
   margin: auto;
 }
-main{
-    margin-top: 0.5rem !important;
-    width: 100%;
+main {
+  margin-top: 0.5rem !important;
+  width: 100%;
 }
-nav a{
-    color: #fff;
-    font-size: 20px;
-    text-decoration: none;
+nav a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
 }
-
-nav :hover{
-  background-color: gold;
+nav :hover {
+  background-color: #b8860b;
   color: #000;
 }
-main h2{
+main h2 {
   text-align: center;
 }
 .temples-container {
-    display: grid;
-    grid-template-columns: repeat(3,1fr );
-    gap: 0.5rem;
-    width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  width: 100%;
 }
 
-figure{  
-    width: 100%;
-    text-align: center;
-    margin: auto;
+figure {
+  width: 100%;
+  text-align: center;
+  margin: auto;
 }
-figure img{
-    width: 100%;
+figure img {
+  width: 100%;
 }
-
-
-.fa-beat, .fa-bounce, .fa-beat-fade, .fa-fade, .fa-flip, .fa-shake, .fa-spin, .fa-rotate-by {
-  animation: none !important;
-  transform: none !important;
-}
-
-.fa-rotate-by {
-  transform: rotate(var(--fa-rotate-angle, 0deg)) !important;
-}
-

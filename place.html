@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="WDD 131 - Dynamic Web Fundamentals, taught by Elisha Sunday, explores 
+      the fundamentals of HTML, CSS, and JavaScript. Gain skills to design dynamic 
+      and responsive websites in this foundational web development course."
+    >
+    <meta name="author" content="Elisha Sunday">
+    <title>WDD 131 - Dynamic Web Fundamentals - Elisha Sunday</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-media.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet">
+  </head>
+  <body> 
+    <header>
+        <h1>Madagascar</h1>
+    </header>
+    <section>
+       <div class="hero">
+        <img class="hero-img-large-screen" src="images/monkey2.jpg" alt="Monkey">
+        <img class="hero-img-small-screen" src="images/monkey.jpg" alt="Monkey">
+        <div class="hero-contents">
+        <div class="first-hero-span">
+            <div class="data">
+                <h2>Data</h2>
+               <div class="data-txt">
+                <strong>Area: </strong>
+                <p>587,041sqkm</p>
+               </div>
+               <div class="data-txt">
+                <strong>Population: </strong>
+                <p>29,691,018</p>
+               </div>
+               <div class="data-txt">
+                <strong>Capital: </strong>
+                <p>Antananarivo</p>
+               </div>
+               <div class="data-txt">
+                <strong>Language: </strong>
+                <p>Madagasy French</p>
+               </div>
+               <div class="data-txt">
+                <strong>Currency: </strong>
+                <p>Madagasy Ariany</p>
+               </div>
+               <div class="data-txt">
+                <strong>Time Zone: </strong>
+                <p>UTC+3</p>
+               </div>
+               <div class="data-txt">
+                <strong>Calling Code: </strong>
+                <p>+261</p>
+               </div>
+               <div class="data-txt">
+                <strong>Internet TLD: </strong>
+                <p>.mg</p>
+               </div>
+            </div>  
+        </div>  
+        <div class="data" id="weather">
+          <div class="weather-icon">
+           <h2>Weather <span class="weather-emoji"></span></h2>
+           <img src="images/weather-icon.png" alt="icon">
+          </div>
+            <div class="data-txt">
+             <strong>Temperature: </strong>
+             <p id="temperature">10</p>
+            </div>
+            <div class="data-txt">
+             <strong>Condition : </strong>
+             <p>Party Cloudy</p>
+            </div>
+            <div class="data-txt">
+             <strong>Wind: </strong>
+             <p id="wind-speed" >5</p>
+            </div>
+            <div class="data-txt">
+             <strong>Wind Chill: </strong>
+                <p id="wind-chill">N/A</p>
+            </div> 
+         </div>
+    </div>
+    </div>
+    </section>
+    <div class="footer-container">
+      <footer>
+        <div class="footer-p-container">
+          <p id="year"></p>
+          <p id="lastModified"></p>
+        </div>
+      </footer>
+    </div>
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    
+  </body>
+ 
+</html>
