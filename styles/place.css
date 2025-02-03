@@ -3,6 +3,18 @@ header {
   border-top: 1px green;
   padding: 11px;
 }
+
+main {
+  max-width: 100% !important;      
+}
+
+
+:root {
+  --primary-color: green;
+  --secondary-color: white;
+  --text-color: black;
+}
+
 header h1 {
   text-align: center;
   color: #fff;
@@ -22,15 +34,14 @@ header h1 {
 }
 .first-hero-span {
   width: 18rem;
+  height: 20rem;
   left: 5%;
-  padding: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 .data {
   width: 17rem;
-  padding: 1rem;
+  padding: 20px;
   background-color: #fff;
-
 }
 .data h2 {
   background-color: green;

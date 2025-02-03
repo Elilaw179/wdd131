@@ -1,4 +1,7 @@
 @media (max-width: 700px) {
+  header  h1 {
+    font-size: 20px;
+  }
   .hero-contents {
     display: block;
     height: 100%;
@@ -38,8 +41,8 @@
   .weather-icon img {
   display: block;
   height: 10rem !important;
-  width: 7rem;
-margin: auto;
+  width: 6rem;
+  margin: auto;
   }
    .weather-emoji{
     display: none;
