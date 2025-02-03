@@ -7,8 +7,6 @@ header {
 main {
   max-width: 100% !important;      
 }
-
-
 :root {
   --primary-color: green;
   --secondary-color: white;
