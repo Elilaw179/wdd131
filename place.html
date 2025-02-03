@@ -27,8 +27,26 @@
     <main>
     <section>
        <div class="hero">
-        <img class="hero-img-large-screen" src="images/secondMonkey.webp" alt="Monkey">
-        <img class="hero-img-small-screen" src="images/monkey.webp" alt="Monkey">
+        <!-- <img class="hero-img-large-screen" src="images/secondMonkey.webp" alt="Monkey">
+        <img class="hero-img-small-screen" src="images/monkey.webp" alt="Monkey"> -->
+       
+       
+           <!-- First Image -->
+           <img class="hero-img-large-screen" 
+           src="images/secondMonkey.webp" 
+           srcset="images/secondMonkey-small.webp 480w, images/secondMonkey-medium.webp 768w, images/secondMonkey.webp 1200w"
+           sizes="(max-width: 600px) 480px, (max-width: 1024px) 768px, 1200px"
+           alt="Monkey Large Screen">
+
+      <!-- Second Image -->
+      <img class="hero-img-small-screen" 
+           src="images/monkey.webp" 
+           srcset="images/monkey-small.webp 480w, images/monkey-medium.webp 768w, images/monkey.webp 1200w"
+           sizes="(max-width: 600px) 480px, (max-width: 1024px) 768px, 1200px"
+           alt="Monkey Small Screen">
+
+       
+       
         <div class="hero-contents">
         <div class="first-hero-span">
             <div class="data">
@@ -93,7 +111,11 @@
     </div>
     </section>
   </main>
+  <svg width="50" height="50" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="blue" />
+  </svg>
     <div class="footer-container">
+      
       <footer>
         <div class="footer-p-container">
           <p id="year"></p>

@@ -8,9 +8,8 @@ main {
   max-width: 100% !important;      
 }
 :root {
-  --primary-color: green;
-  --secondary-color: white;
-  --text-color: black;
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
 }
 
 header h1 {
@@ -18,7 +17,7 @@ header h1 {
   color: #fff;
 }
 .h-border {
-  background-color: green;
+  background-color: #2ecc71;
   height: 1rem;
   width: 100%;
 }
