@@ -61,9 +61,9 @@ const temples = [
       location: "Tokyo, Japan",
       dedicated: "1980, October, 27",
       area: 52000,
-      imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/tokyo-japan-temple/tokyo-japan-temple-26340-main.jpg"
+      imageUrl:"https://images.squarespace-cdn.com/content/v1/61bef9dc22e1eb3319ff5a1e/e3bebab9-39ce-4ac8-91fc-8774fcbf35cb/Tokyo+Temple.jpeg?format=750w"
   },
-  {
+      {
       templeName: "Paris France",
       location: "Paris, France",
       dedicated: "2017, May, 21",
