@@ -27,12 +27,10 @@ body {
 .temple-card:hover {
     transform: scale(1.03);
 }
-
 .temple-card h3 {
     font-size: 1.2rem;
     color: #005792;
 }
-
 .temple-card p {
     font-size: 1rem;
     color: #333;
