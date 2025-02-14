@@ -1,0 +1,107 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta 
+    name="description" 
+    content="Discover the best hiking trails, travel tips, and adventure guides around the world. 
+    Explore expert recommendations, packing lists, and travel inspiration for adventure seekers."
+     >
+    <meta name="author" content="Elisha Sunday">
+      <!-- Open Graph Meta Tags for Social Sharing -->
+      <meta property="og:title" content="Adventure Travel Blog - Hiking Guides & Travel Tips">
+      <meta property="og:type" content="website">
+      <meta property="og:image" content="images/social-preview.jpg">
+      <meta property="og:url" content="https://elilaw179.github.io/wdd231/">
+      <meta property="og:description" content="Discover the best hiking trails, travel tips, and adventure guides. Get expert recommendations, packing lists, and travel inspiration for your next adventure.">
+      <meta property="og:site_name" content="Adventure Travel Blog">
+     
+      <title>Adventure Travel Blog | Home</title>
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles/media-querry.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/attributions.css">
+   
+    
+</head>
+<body>
+   
+    <header>
+        <h1>Adventure Travel Blog</h1>
+        <!-- Use id="menu-btn" on the button -->
+        <button id="menu-btn"> 
+            <i class="fa-solid fa-list"></i>
+        </button>
+           
+        <nav class="sidebar" id="sidebar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="guides.html">Hiking Guides</a></li>
+                <li><a href="tips.html">Travel Tips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="about-section">
+            <h2>About the Adventure Travel Blog</h2>
+            <p>This blog is dedicated to adventure seekers, providing hiking guides, travel tips, and destination recommendations. Our mission is to inspire and inform travelers who are looking for outdoor adventures worldwide.</p>
+        </section>
+
+        <section class="data-explanation">
+            <h2>About Our Data Integration</h2>
+            <p>We use dynamically fetched data from a local JSON file to display hiking guides and travel tips. This allows us to easily update and manage content without hardcoding the information directly into the webpage. By integrating this data, our site provides up-to-date and relevant hiking recommendations for adventure travelers.</p>
+        </section>
+
+        <section class="lazy-loading-info">
+            <h2>Performance Optimization with Lazy Loading</h2>
+            <p>Our images are optimized using the lazy loading technique. This approach loads images only when they come into the user's viewport, which improves page speed, reduces data usage, and enhances overall user experience.</p>
+        </section>
+
+        <section class="favorites-section">
+            <h2>Your Favorite Hiking Guides</h2>
+            <div id="favorites-container">
+                <p>No favorites saved yet. Explore our hiking guides and add your favorites!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Adventure Travel Blog | <a class="attri-anchor" href="attributions.html">Attributions</a></p>
+        <p id="year"></p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/about.js" defer></script>
+    <script src="scripts/index.js" defer></script>
+</body>
+    
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
